@@ -13,7 +13,7 @@ engine.setProperty('volume', 1.0)
 engine.setProperty('voice', 'com.apple.speech.synthesis.voice.Samantha')
 
 # Initialize Gemini AI
-genai.configure(api_key="AIzaSyBk-SigNxTKtTvJxd4EMfSojLbPFhRwRYg")
+genai.configure(api_key="YOUR API KEY")
 
 # Convert text to speech
 def text_to_speech(text):
